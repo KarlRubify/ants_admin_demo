@@ -1,0 +1,53 @@
+-
+  text: 'Dashboard'
+  url: '/admin'
+  active: "ants_admin#dashboard"
+  icon: 'dashboard'
+-
+  text: 'Libraries'
+  url: '/admin/library'
+  active: "library"
+  icon: 'file-photo-o'
+-
+  text: 'Item'
+  url: '/admin/item'
+  active: "item"
+  icon: 'th'
+-
+  text: 'Line'
+  url: '/admin/line'
+  active: "line"
+  icon: 'th'
+-
+  text: 'Categories'
+  url: '/admin/category'
+  active: "category"
+  icon: 'th'
+-
+  text: 'Box'
+  url: '/admin/box'
+  active: "box"
+  icon: 'square'
+-
+  text: 'Widgets'
+  url: '/'
+  active: false
+  icon: 'leaf'
+  note:
+    text: "new"
+    color: 'green'
+-
+  text: 'Charts'
+  url: '/'
+  active: false
+  icon: 'bar-chart-o'
+  submenu:
+    -
+      text: "Morris"
+      url: "/"
+    -
+      text: "Flot"
+      url: "/"
+    -
+      text: "Inline charts"
+      url: "/"
