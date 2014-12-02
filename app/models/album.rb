@@ -7,11 +7,11 @@ class Album < ActiveRecord::Base
   
   def view_action
     {
-      type:'button',
-      href: "/admin/photos/?album_id=#{id}",
-      style: 'info',
-      icon: 'photo',
-      text: 'hinh'
+      button: {
+        href: "/admin/photos/?album_id=#{id}",
+        style: 'info',
+        icon: 'photo'
+      }
     }
   end
 

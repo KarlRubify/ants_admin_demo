@@ -35,10 +35,11 @@ class Item < ActiveRecord::Base
   
   def modify_link_action
     {
-      href: "/admin/item/#{id}/modify_link",
-      type: "button",
-      style: "info",
-      icon: "pencil-square"
+      button: {
+        href: "/admin/item/#{id}/modify_link",
+        style: "info",
+        icon: "pencil-square"
+      }
     }
   end
 
