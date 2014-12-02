@@ -1,0 +1,25 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+public/system
+public/assets
+.DS_Store
+config/locales/*.yml
+app/assets/.DS_Store
+db/sphinx
+log/*.pid
+public/sale_tools
+db/sphinx
+app/.DS_Store
+public/sale_tools
+db/sphinx
+.ruby-version
+.rbenv-version
+public/team_commercial
+public/eshare

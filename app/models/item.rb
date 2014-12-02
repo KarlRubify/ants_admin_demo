@@ -7,6 +7,7 @@ class Item < ActiveRecord::Base
   IMAGE_STYLE_THUMB = 'thumb'
   
   # FORM_INPUT_SKIP = 'name', 'size', 'image'
+  FORM_INPUT_NESTED_SKIP = 'lines'
     #
   # CREATE_DISABLED = true
   # EDIT_DISABLED = true

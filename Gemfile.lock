@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ThanhKhoaIT/ants_admin.git
-  revision: 2f058bcc547a69fef76d793430e57bf7aafdaf0c
+  revision: 5efcacac5fd53c06d7281c9d680c28bb6b6841de
   branch: master
   specs:
     ants_admin (0.0.1)
